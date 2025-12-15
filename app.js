@@ -21,9 +21,15 @@ const isAdult = (z) => {
 console.log('Exercise 2 Result:', isAdult(21));
 
 // Exercise 3
+const isCharAVowel = (q) => {
+    if (q = 'a' || 'e' || 'i' || 'o' || 'u') {
+        return 'True';
+    } else {
+        return 'False';
+    }
+    }
 
-
-
+console.log('Exercise 3 Result:', isCharAVowel("a"));
 // Exercise 4 
 
 // Exercise 5 
