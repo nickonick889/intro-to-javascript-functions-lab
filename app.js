@@ -31,9 +31,30 @@ const isCharAVowel = (q) => {
 
 console.log('Exercise 3 Result:', isCharAVowel("a"));
 // Exercise 4 
+function generateEmail (name, domain) {
+    return `${name}` + '@' + `${domain}`
+}
+
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
 // Exercise 5 
+function greetUser (a, b) {
+    if (b === 'morning') {
+        return `Good morning, ${a}!` ;
+    } else if (b === 'afternoon') {
+        return `Good afternoon, ${a}!`;
+    } else if (b === 'evening') {
+        return `Good evening, ${a}!`;
+    }
+}
 
+console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 // Excercsie 6 
 
 // Excersie 7
+
+
+// Excersie 8
+
+
+// Excersie 9
