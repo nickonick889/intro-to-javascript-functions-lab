@@ -60,9 +60,14 @@ function maxOfThree (a,b,c){
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
 // Excersie 7
-
+function calculateTip(a,b) {
+    return (a*(b/100));
+}
+console.log('Exercise 7 Result:', calculateTip(50, 20));
 
 // Excersie 8
+function convertTemperature()
 
 
 // Excersie 9
+function basicCalculator()
