@@ -30,6 +30,7 @@ const isCharAVowel = (q) => {
     }
 
 console.log('Exercise 3 Result:', isCharAVowel("a"));
+
 // Exercise 4 
 function generateEmail (name, domain) {
     return `${name}` + '@' + `${domain}`
@@ -49,7 +50,14 @@ function greetUser (a, b) {
 }
 
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+
 // Excercsie 6 
+function maxOfThree (a,b,c){
+   const largest = Math.max(a,b,c);
+   return largest
+}
+
+console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
 // Excersie 7
 
