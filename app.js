@@ -61,13 +61,32 @@ console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
 // Excersie 7
 function calculateTip(a,b) {
-    return (a*(b/100));
+    return Math.round(a*(b/100));
 }
-console.log('Exercise 7 Result:', calculateTip(50, 20));
+console.log('Exercise 7 Result:', calculateTip(2, 20));
 
 // Excersie 8
-function convertTemperature()
+function convertTemperature(a, b){
+    if (b === 'C') {
+        return (a*(9/5)) +32 ; 
+        } else if (b === 'F') {
+            return (a-32) * (5/9)
+            }
+        }
 
+console.log('Exercise 8 Result:', convertTemperature(32, "C"));
 
 // Excersie 9
-function basicCalculator()
+function basicCalculator(a, b, c) {
+    if   (c === "add") {
+        return (a+b);
+    } else if (c === "subtract") {
+        return (a-b);
+    } else if (c === "multiply") {
+        return (a*b);
+    } else if (c === "divide") {
+        return (a/b);
+    }
+}
+    
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
