@@ -118,7 +118,7 @@ const createUsername = (a, b) => {
 console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
 
 // Exercise 12 
-function numArgs(...) {
-    const numArgs = arguments.length ;
+function numArgs() {
+    return numArgs = arguments.length ;
 }
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
