@@ -90,3 +90,35 @@ function basicCalculator(a, b, c) {
 }
     
 console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
+
+
+// Exercise 10 
+const calculateGrade = (z) => {
+    if (z >= 90) {
+        return 'A';
+    } else if (z >= 80 && z <=89) {
+        return 'B';
+    } else if (z >= 70 && z <=79) {
+        return 'C';
+    } else if (z >= 60 && z <=69) {
+        return 'D';
+    } else if (z <= 59) {
+        return 'F';
+    }
+}
+console.log('Exercise 10 Result:', calculateGrade(85));
+
+// Exercise 11 
+const createUsername = (a, b) => {
+    const x = a.slice(0,3);
+    const y = b.slice(0,3);
+    const z = a.length + b.length;
+    return `${x}${y}${z}`
+}
+console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
+
+// Exercise 12 
+function numArgs(...) {
+    const numArgs = arguments.length ;
+}
+console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
